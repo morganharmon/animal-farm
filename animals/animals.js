@@ -9,5 +9,5 @@ const params = new URLSearchParams(window.location.search);
 const animal = findById(params.get('id'), animals);
 
 animalName.textContent = `Ayy, whatup? My name is ${animal.name}.`;
-animalImg.src = `../assets/${animal.type}`;
+animalImg.src = `../assets/${animal.type}.svg`;
 animalInfo.textContent = `I say ${animal.says}`;
