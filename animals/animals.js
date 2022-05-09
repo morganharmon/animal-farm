@@ -10,4 +10,4 @@ const animal = findById(params.get('id'), animals);
 
 animalName.textContent = `Ayy, whatup? My name is ${animal.name}.`;
 animalImg.src = `../assets/${animal.type}.svg`;
-animalInfo.textContent = `I say ${animal.says}`;
+animalInfo.textContent = `${animal.says}`;
